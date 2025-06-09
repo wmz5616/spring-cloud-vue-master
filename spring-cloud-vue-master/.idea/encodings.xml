@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/back-end/cloud-vue-parent/article-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/back-end/cloud-vue-parent/cloud-api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/back-end/cloud-vue-parent/cloud-config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/back-end/cloud-vue-parent/cloud-eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/back-end/cloud-vue-parent/cloud-simple-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/back-end/cloud-vue-parent/cloud-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/back-end/cloud-vue-parent/cloud-zipkin-ui/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/back-end/cloud-vue-parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/back-end/cloud-vue-parent/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

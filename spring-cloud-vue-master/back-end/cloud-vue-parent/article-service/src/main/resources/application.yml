@@ -1,0 +1,19 @@
+server:
+  port: 9002 # 为文章服务分配一个新端口 9002，不能和user-service的9001冲突
+
+spring:
+  application:
+    name: article-service # 定义服务名
+  datasource:
+    url: jdbc:mysql://localhost:3306/cloud_blog_db?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456 # ！！！！请在这里替换为你的数据库密码！！！！
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/

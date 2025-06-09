@@ -1,0 +1,20 @@
+server:
+  port: 9001 # 为用户服务分配一个独立的端口
+
+spring:
+  application:
+    name: cloud-user-service # 定义服务名，要和网关配置里的一致
+  datasource:
+    url: jdbc:mysql://localhost:3306/cloud_blog_db?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456 # ！！！！请在这里替换为你的数据库密码！！！！
+  jpa:
+    hibernate:
+      ddl-auto: update # 开发时用update，它会自动根据你的实体类更新表结构
+    show-sql: true # 在控制台打印SQL语句，方便调试
+
+# 这里我们直接使用您之前确认的正确端口 8888
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/
